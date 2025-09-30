@@ -9,7 +9,7 @@ session_name = 'my_session'
 # Channels to monitor
 source_channels = ['fattyfatclub','unipcsjournal']  # List of channels
 # Your n8n webhook URL
-n8n_webhook_url = 'https://yallegue.app.n8n.cloud/webhook-test/355b767f-323b-45e9-8530-b95aff56c784'
+n8n_webhook_url = 'https://yallegue.app.n8n.cloud/webhook/355b767f-323b-45e9-8530-b95aff56c784'
 
 client = TelegramClient(session_name, api_id, api_hash)
 
